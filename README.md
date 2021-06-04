@@ -24,7 +24,7 @@ Image Segmentation Process:
 
 >### Input Image: 
 >**This image will be used to change the background.**
-![joker.jpg](https://raw.githubusercontent.com/rohan300557/Pixellib-Background_Removal/main/Input%20image/joker.jpg?token=AOPFY3Z6VCXE67UOVPF3KELAYO2SM)
+![joker.jpg](https://raw.githubusercontent.com/rohan300557/Pixellib-Background_Removal/main/Input%20image/joker.jpg?token=AOPFY3Z6VCXE67UOVPF3KELAYO2SM  =400x300)
 
 >### Output Image: 
 >
@@ -34,7 +34,7 @@ Image Segmentation Process:
 >segment_image.load_pascalvoc_model("Model/deeplabv3_xception_tf_dim_ordering_tf_kernels.h5")
 >segment_image.segmentAsPascalvoc("Input image/joker.jpg", output_image_name = "Output Image/mask_joker.jpg")
 >````
- >![mask_joker.jpg](https://raw.githubusercontent.com/rohan300557/Pixellib-Background_Removal/main/Output%20Image/mask_joker.jpg?token=AOPFY37PHG5M76HUHTK355DAYO2CC)
+ >![mask_joker.jpg](https://raw.githubusercontent.com/rohan300557/Pixellib-Background_Removal/main/Output%20Image/mask_joker.jpg?token=AOPFY37PHG5M76HUHTK355DAYO2CC =400x300)
 >> #### Background color changed to white 
 >```python:
 >change_bg = alter_bg()
@@ -42,7 +42,7 @@ Image Segmentation Process:
 >output = change_bg.color_bg("Input image/joker.jpg", colors =  (255, 255, 255))
 >cv2.imwrite("Output Image/change_bgcolor_joker.jpg", output)
 >```
->![mask_joker.jpg](https://raw.githubusercontent.com/rohan300557/Pixellib-Background_Removal/main/Output%20Image/change_bgcolor_joker.jpg?token=AOPFY33TRD4EMQHMWV7DIH3AYO2ME)
+>![mask_joker.jpg](https://raw.githubusercontent.com/rohan300557/Pixellib-Background_Removal/main/Output%20Image/change_bgcolor_joker.jpg?token=AOPFY33TRD4EMQHMWV7DIH3AYO2ME =400x300)
 
 ## For Reference 
  * Change the Background of Any Image: [towardsdatascience](https://towardsdatascience.com/change-the-background-of-any-image-with-5-lines-of-code-23a0ef10ce9a)
