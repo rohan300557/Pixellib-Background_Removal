@@ -24,6 +24,7 @@ Image Segmentation Process:
 
 >### Input Image: 
 >**This image will be used to change the background.**
+>
 > <img src="https://raw.githubusercontent.com/rohan300557/Pixellib-Background_Removal/main/Input%20image/joker.jpg?token=AOPFY3YC2LPORMVR4LC72P3AYO546" data-canonical-src="https://raw.githubusercontent.com/rohan300557/Pixellib-Background_Removal/main/Input%20image/joker.jpg?token=AOPFY3YC2LPORMVR4LC72P3AYO546" width="400" height="300" />
 
 >### Output Image: 
